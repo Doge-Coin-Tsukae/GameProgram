@@ -1,0 +1,68 @@
+﻿  bullet.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\bullet.cpp(104): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  collision.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\scene.h(11): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'SCENE_INDEX' の左辺を無視します。
+  enemy.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(190): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(189): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(206): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(205): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(220): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(219): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(235): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(234): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(320): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(321): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(507): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(711): warning C4244: '=': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(712): warning C4244: '=': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(735): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemy.cpp(794): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  enemybullet.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemybullet.cpp(105): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  enemylaser.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\enemylaser.cpp(140): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  explosion.cpp
+  fade.cpp
+  game.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\scene.h(11): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'SCENE_INDEX' の左辺を無視します。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\game.cpp(25): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'PHASE_INDEX' の左辺を無視します。
+  input.cpp
+  main.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\scene.h(11): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'SCENE_INDEX' の左辺を無視します。
+  myDirect3D.cpp
+  number.cpp
+  player.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\player.cpp(43): warning C4305: '=': 'double' から 'FLOAT' へ切り詰めます。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\player.cpp(217): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\player.cpp(216): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\player.cpp(233): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\player.cpp(232): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\player.cpp(230): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  result.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\scene.h(11): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'SCENE_INDEX' の左辺を無視します。
+  scene.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\scene.h(11): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'SCENE_INDEX' の左辺を無視します。
+  score_draw.cpp
+  sound.cpp
+  sprite.cpp
+  table.cpp
+  texture.cpp
+  コンパイル中...
+  tileMap.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\tilemap.cpp(188): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\tilemap.cpp(187): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\tilemap.cpp(186): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\tilemap.cpp(185): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\tilemap.cpp(196): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yu\source\repos\directx 5 - コピー - コピー\tilemap.cpp(197): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+  title.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\scene.h(11): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'SCENE_INDEX' の左辺を無視します。
+  tutorial.cpp
+c:\users\yu\source\repos\directx 5 - コピー - コピー\scene.h(11): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'SCENE_INDEX' の左辺を無視します。
+  コード生成しています。
+  168 of 168 functions (100.0%) were compiled.
+    4 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  directx 4.vcxproj -> C:\Users\Yu\source\repos\directx 5 - コピー - コピー\Release\directx 4.exe
