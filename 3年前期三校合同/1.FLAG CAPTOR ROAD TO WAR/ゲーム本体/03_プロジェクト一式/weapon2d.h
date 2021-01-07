@@ -1,0 +1,18 @@
+#pragma once
+
+#include "gameobject.h"
+
+class CWEAPON2D : public  CGameObject
+{
+private:
+	CNUMBER*			m_MaxAnmo;		//ç≈ëÂíeêî
+	CNUMBER*			m_Anmo;			//åªç›ÇÃíeêî
+	CPolygon*			m_Under;		//â∫ín
+	CGAUGE*				m_Gauge;		//íeÇÃÉQÅ[ÉW
+
+public:
+	void Init();
+	void Uninit();
+	void Update();
+	void Draw();
+};

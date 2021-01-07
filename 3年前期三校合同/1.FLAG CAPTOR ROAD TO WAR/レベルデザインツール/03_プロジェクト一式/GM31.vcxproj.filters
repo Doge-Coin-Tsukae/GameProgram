@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\gameobject">
+      <UniqueIdentifier>{c6fc3b90-983a-4a28-b52e-2c87872228c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{121b95b5-877f-4498-bbf9-f4a9b548b04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{c62984c7-0a7a-42f2-a623-f372de9c8f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameobject\player">
+      <UniqueIdentifier>{c8865022-6ec7-4b75-871f-b277c3cfae38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameobject\object">
+      <UniqueIdentifier>{a4ecd876-685c-4b1f-bb30-a1b732172368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameobject\2D">
+      <UniqueIdentifier>{c944d344-728c-4166-99b3-82431eb7df86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameobject\billboard">
+      <UniqueIdentifier>{30e64276-6f12-4546-9b97-0e0db7a60efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\imgui">
+      <UniqueIdentifier>{aadb8739-6f93-4af4-9062-9c9b9358f58f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClCompile>
+    <ClCompile Include="friend.cpp">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClCompile>
+    <ClCompile Include="sight.cpp">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemycommander.cpp">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClCompile>
+    <ClCompile Include="skydome.cpp">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClCompile>
+    <ClCompile Include="gauge.cpp">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="colider.cpp">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.cpp">
+      <Filter>ソース ファイル\gameobject\billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="bunker.cpp">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="gamemaneger.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="carsor.cpp">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClCompile>
+    <ClCompile Include="selectitem.cpp">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="chip.cpp">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="meshfield.cpp">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyrespornpoint.cpp">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClCompile>
+    <ClCompile Include="selectpointer.cpp">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="deadtree.cpp">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClCompile>
+    <ClCompile Include="modechip.cpp">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="save.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="load.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="saveloadchip.cpp">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="filewinapi.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gameobject.h">
+      <Filter>ソース ファイル\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ソース ファイル\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ソース ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ソース ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ソース ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ソース ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ソース ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClInclude>
+    <ClInclude Include="friend.h">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="sight.h">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>ソース ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemycommander.h">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="skydome.h">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClInclude>
+    <ClInclude Include="gauge.h">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="colider.h">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClInclude>
+    <ClInclude Include="bunker.h">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ソース ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="human.h">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="gamemaneger.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="carsor.h">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClInclude>
+    <ClInclude Include="selectitem.h">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="chip.h">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="meshfield.h">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyrespornpoint.h">
+      <Filter>ソース ファイル\gameobject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="selectpointer.h">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="deadtree.h">
+      <Filter>ソース ファイル\gameobject\object</Filter>
+    </ClInclude>
+    <ClInclude Include="modechip.h">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="save.h">
+      <Filter>ソース ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>ソース ファイル\gameobject\billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="load.h">
+      <Filter>ソース ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="saveloadchip.h">
+      <Filter>ソース ファイル\gameobject\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="filewinapi.h">
+      <Filter>ソース ファイル\system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="vertexShader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="pixelShader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
